@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: blue;
+	margin-top: 200px;
+	margin-left: 100px;
+	color: white;
+	margin-right: 100px;
+}
+
+.people{
+	background-color: purple;
+	border: none;
+	border-radius: 20px 20px 20px 20px;
+	display: flex;
+}
+
+ul{
+	justify-content: space-between;
+}
+
+input{
+	background-color: purple;
+	width: 50%;
+	align-content: center;
+	border-radius: 20px 20px 20px 20px;
+}
+
+img{
+	margin-top: 80px;
+	float: left;
+	width: 100pt;
+	height: 100pt;
+	border-radius: 50px 50px 50px 50px;
+	border-color: blue:	
+    box-shadow: 30px;
+    margin-left: 40px;
+}
+.general{
+	float: right;
+	margin-left: 40px;
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+}
